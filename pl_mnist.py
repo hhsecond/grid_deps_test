@@ -8,6 +8,7 @@ import pytorch_lightning as pl
 from torch.utils.data import random_split
 from pytorch_lightning.metrics.functional import accuracy
 import sklearn
+import redisai
 
 
 class LitModel(pl.LightningModule):
